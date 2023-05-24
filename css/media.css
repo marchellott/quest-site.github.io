@@ -1,0 +1,576 @@
+/* Small Devices, Tablets */
+@media screen and (max-width : 1180px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .top_block {
+        height: 94px;
+    }
+    .manage_block .photo img {
+        width: 100%;
+        height: auto;
+    }
+    .top_block ul {
+        padding-top: 22px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .top_block ul > li {
+        margin: 0px 15px 14px 15px;
+    }
+    .first_block {
+        background-image: url(../img/bg_tablet_header.png);
+        height: 1150px;
+        background-position-y: bottom;
+    }
+    .first_block_people {
+        display: none;
+    }
+
+
+    header {
+        height: 98px;
+        padding-top: 0px;
+    }
+    .logo {
+        padding: 20px 0px 21px 0px;
+        margin: 0px 37px 0px 0px;
+    }
+    .logo img {
+        width: 44px;
+        height: 57px;
+    }
+    .name_site {
+        font-size: 12px;
+        line-height: 150%;
+        font-weight: 500;
+        padding: 22px 0px 22px 0px;
+        margin: 0;
+        max-width: 244px;
+    }
+    .phone_btn {
+        display: none;
+    }
+    .tablet_btn {
+        display: block;
+    }
+    .number_site {
+        display: none;
+    }
+    .number_site_tablet {
+        display: block;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .callback_btn {
+        width: 162px;
+        height: 43px;
+        font-size: 14px;
+        margin-top: 0px;
+        margin: 28px 0px 27px 0px;
+    }
+    .first_block_title h2 {
+        padding: 27px 0px 42px 0px;
+    }
+    .first_block_text {
+        max-width: 368px;
+    }
+    .first_block_text p {
+        font-size: 18px;
+        line-height: 150%;
+        width: 368px;
+        padding-right: 32%;
+    }
+    .circle_block {
+        float: right;
+        width: 212px;
+        height: 134px;
+        font-size: 18px;
+        line-height: 150%;
+        padding: 0px;
+    }
+    .first_block_text_add h3 {
+        font-size: 20px;
+    }
+    .first_block_text_add button {
+        width: 303px;
+        height: 64px;
+        margin-top: 32px;
+        padding: 0px 25px 0px 35px;
+    }
+    .first_block_text_add button > img {
+        margin-left: 0%;
+    }
+    .first_block_text_add button > span {
+        font-size: 16px;
+        padding-top: 3px;
+    }
+    .first_block_adv {
+        margin-top: 44px;
+    }
+    .first_block_adv ul {
+        float: left;
+        max-width: 225px;
+    }
+    .first_block_adv ul > li {
+        margin-bottom: 20px;
+    }
+
+    .second_block {
+        margin: 22px 0px 0px 0px;
+    }
+    .second_block_title {
+        width: 459px;
+        padding-right: 15%;
+    }
+    .second_block_title h2 {
+        padding: 50px 0px 0px 0px;
+        line-height: 150%;
+    }
+    .second_block_tooltip {
+        width: auto;
+        margin: 35px 0px;
+    }
+    .second_block_tooltip_circle {
+        width: 172px;
+        height: 80px;
+        font-size: 16px;
+        padding: 30px 0px;
+    }
+    .arrow_tooltip {
+        margin-left: 12%;
+    }
+
+    .ui-tabs .ui-tabs-nav li {
+        width: 226px;
+        margin-right: 0px;
+        padding-right: 35px;
+        margin-bottom: 46px;
+        line-height: 150%;
+    }
+
+    .master_class_block .col-sm-4 {
+        max-width: 48%;
+    }
+    .master_class_block .col_mc:nth-child(1) {
+        margin: 0px 20px 60px 0px;
+    }
+    .master_class_block .col_mc:nth-child(2) {
+        margin: 0px 20px 60px 0px;
+    }
+    .master_class_block .col_mc:nth-child(3) {
+        margin: 0px 0px 60px 0px;
+    }
+    .master_class_block .col_mc:nth-child(4) {
+        margin: 0px 20px 60px 0px;
+    }
+    .master_class_block .col_mc:nth-child(5) {
+        margin: 0px 0px 60px 0px;
+    }
+    .master_class_block .col_mc:nth-child(6) {
+        margin: 0px 20px 60px 0px;
+    }
+    .col_mc button.order {
+        width: 48%;
+    }
+
+
+    .adv_master_class ul > li {
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    .manager {
+        display: none;
+    }
+    .tablet_block .manager {
+        display: block;
+    }
+    .tablet_block .manager p {
+        width: 600px !important;
+        margin-top: -7px;
+    }
+    .manage_block .photo {
+        display: none;
+    }
+    .manage_block .manager {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .manage_block .manager img {
+        width: 206px;
+        height: 237px;
+        margin-right: 30px;
+    }
+    .manage_block .manager p {
+        width: 409px;
+        margin-bottom: 30px;
+    }
+    .manage_block .manager button {
+        width: 442px;
+        height: 70px;
+        font-weight: 600;
+        margin-top: 0px;
+    }
+    .manage_block .manager button > span {
+        margin-left: -18px;
+    }
+
+    .all_show {
+        width: 100%;
+    }
+
+    footer {
+        height: 396px;
+    }
+    footer .logo {
+        padding: 0px;
+        margin-right: 43px;
+    }
+    footer .menu_list {
+        padding: 0px;
+        margin-right: 26px;
+    }
+    footer .btn_block {
+        width: 206px;
+    }
+    footer .btn_block button {
+        width: 206px;
+        height: 57px;
+        font-size: 14px;
+    }
+    footer .social_info {
+        display: none;
+    }
+    footer .btn_block .text_color {
+        margin-top: 0px;
+    }
+
+    .tablet_footer {
+        display: block;
+        margin-top: 48px;
+    }
+    .tablet_footer .social_info ul > li {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width : 991px) {
+    .tablet_list {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width : 414px) {
+    .btn-nav-mobile {
+        display: block;
+    }
+
+    .top_block {
+        display: none;
+    }
+    header {
+        height: 125px;
+    }
+    .logo {
+        padding: 14px 0px 10px 0px;
+        margin: 0px 22px 0px 0px;
+    }
+    .logo img {
+        width: 35px;
+        height: 45px;
+    }
+    .name_site {
+        max-width: 160px;
+        font-size: 8px;
+        padding: 22px 0px 11px 0px;
+    }
+    .tablet_btn {
+        display: none;
+    }
+    .phone_btn_mobile {
+        display: block;
+        width: 50%;
+    }
+    .phone_btn_mobile ul > li::before {
+        width: 24px;
+        height: 24px;
+    }
+    .callback_btn {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        margin: 16px 0px 0px 0px;
+    }
+
+    .first_block {
+        background-image: url(../img/head_mobile.jpeg);
+        height: 750px;
+    }
+    .first_block_title h2 {
+        font-size: 21px;
+        text-align: center;
+        line-height: 150%;
+        padding: 22px 0px 22px 0px;
+    }
+    .first_block_text {
+        max-width: 100%;
+        width: 100%;
+    }
+    .first_block_text p {
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+        padding-left: 95px;
+        padding-right: 95px;
+    }
+    .first_block_text ul {
+        display: none;
+    }
+    .circle_block {
+        display: none;
+    }
+    .first_block_text_add h3 {
+        text-align: center;
+    }
+    .first_block_text_add button {
+        width: 100%;
+        height: 47px;
+        padding-left: 90px;
+        padding-right: 100px;
+    }
+    .first_block_text_add button > span {
+        font-size: 13px;
+        padding-top: 0px;
+    }
+    .first_block_text_add button > img {
+        width: 16px;
+        height: 16px;
+        margin-left: 0px;
+    }
+    .first_block_adv {
+        display: none;
+    }
+
+    .second_block_title {
+        width: 100%;
+    }
+    .second_block_tooltip {
+        margin: 12px 0px;
+    }
+    .arrow_tooltip {
+        margin-left: 0;
+        right: 0;
+        margin-top: 8%;
+    }
+    .tabs_mc {
+        margin: 0px 0px 0px 0px;
+    }
+    .ui-tabs .ui-tabs-nav li {
+        border-left: 2px solid #F3AFDD !important;
+        border-bottom: none !important;
+        width: 100%;
+        height: 53px;
+        padding: 15px 0px 0px 8px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 150%;
+        margin-bottom: 0px;
+    }
+    .mk_block {
+        margin: 70px 0px 0px 0px;
+    }
+    .ui-tabs .ui-tabs-nav li:hover {
+        border-left: 2px solid #FF4CC4 !important;
+        border-bottom: none !important;
+    }
+
+    .master_class_block h2 {
+        padding: 63px 0px 42px 0px;
+    }
+    .master_class_block .col-sm-4 {
+        max-width: 100%;
+        width: 100%;
+    }
+    .col_mc h4 {
+        font-size: 17px;
+    }
+    .col_mc > p {
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .col_mc button.order {
+        height: 47px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .col_mc button.more {
+        height: 47px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .master_class_block .col_mc:nth-child(1) {
+        margin: 0px 0px 60px 0px;
+    }
+    .master_class_block .col_mc:nth-child(2) {
+        margin: 0px 0px 60px 0px;
+    }
+    .master_class_block .col_mc:nth-child(3) {
+        margin: 0px 0px 60px 0px;
+    }
+    .master_class_block .col_mc:nth-child(4) {
+        margin: 0px 0px 60px 0px;
+    }
+    .master_class_block .col_mc:nth-child(5) {
+        margin: 0px 0px 60px 0px;
+    }
+    .master_class_block .col_mc:nth-child(6) {
+        margin: 0px 0px 60px 0px;
+    }
+
+    .adv_master_class {
+        padding: 118px 0px 67px 0px;
+    }
+    .adv_master_class h2 {
+        padding: 0px 0px 36px 0px;
+    }
+    .col_adv {
+        min-width: 100%;
+    }
+
+    .tablet_block .manager p {
+        width: 100% !important;
+    }
+    .manage_block {
+        margin: 130px 0px 70px 0px;
+    }
+    .manage_block .manager p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .manage_block .manager button {
+        width: 100%;
+        font-size: 14px;
+    }
+    .manage_block .manager button > img {
+        width: 24px;
+        height: 24px;
+    }
+    .manage_block .manager img {
+        margin-bottom: 20px;
+    }
+    .manage_block .manager p {
+        margin-bottom: 27px;
+    }
+
+    .before_footer_block {
+        padding: 0px 0px 70px 0px;
+    }
+
+    .tablet_footer {
+        margin-top: 31px;
+    }
+    .tablet_footer .social_info {
+        float: left;
+        width: 100%;
+    }
+    .tablet_footer .social_info ul {
+        display: block;
+        margin: 0 auto;
+        width: 105px;
+    }
+    .tablet_footer .social_info ul > li {
+        margin-left: 0px;
+    }
+    .phone_number {
+        display: none;
+    }
+    .phone_number_mobile {
+        display: block;
+        float: left;
+        width: 100%;
+        margin-top: 18px;
+    }
+    .phone_number_mobile p {
+        text-align: center;
+    }
+
+    footer {
+        height: 495px;
+    }
+    footer .logo {
+        width: 100%;
+    }
+    footer .logo img {
+        display: block;
+        margin: 0 auto;
+    }
+    .menu_list {
+        display: none;
+    }
+    footer .btn_block {
+        float: left;
+        width: 100%;
+    }
+    footer .btn_block button {
+        width: 100%;
+        height: 57px;
+        margin-bottom: 0px;
+    }
+    footer .btn_block .text_color {
+        margin-top: 31px;
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    .name_site {
+        max-width: 200px;
+        font-size: 10px;
+        padding: 16px 0px 11px 0px;
+    }
+    .first_block_text p {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    .first_block_text_add button {
+        padding-left: 80px;
+        padding-right: 70px;
+    }
+
+    .first_block_title {
+        display: none;
+    }
+    .mobile {
+        display: block !important;
+    }
+    .mobile h2 {
+        font-size: 26px;
+        padding: 22px 0px 22px 0px;
+        line-height: 150%;
+    }
+
+    .second_block_tooltip_circle {
+        width: 109px;
+        height: 51px;
+        font-size: 10px;
+        padding: 19px 0px;
+    }
+
+    .master_class_block h2 {
+        font-size: 21px;
+    }
+
+    .adv_master_class ul > li {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width : 350px) {
+    .first_block_text_add button {
+        padding-left: 55px;
+    }
+}
